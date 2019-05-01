@@ -1,4 +1,4 @@
- <style>
+
         body,h1,h2,h3,h4,h5,h6 {font-family:'Montserrat', sans-serif;
 }
         body, html {
@@ -47,6 +47,7 @@
         }
 
 .header-text {
-    color: #58c9ba
+    color: #58c9ba;
+    font-family;'BioRhyme Expanded', serif;
+
 }
-    </style>
