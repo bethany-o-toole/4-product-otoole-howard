@@ -10,25 +10,25 @@
     <body>
 
         <div class="w3-bar w3-white">
-  <a href="#home" class="w3-bar-item w3-button">Home</a>
-  <a href="#info" class="w3-bar-item w3-button w3-hide-small">Info</a>
-  <a href="#purchase" class="w3-bar-item w3-button w3-hide-small">Purchase</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact </a>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
-</div>
+            <a href="#home" class="w3-bar-item w3-button">Home</a>
+            <a href="#info" class="w3-bar-item w3-button w3-hide-small">Info</a>
+            <a href="#purchase" class="w3-bar-item w3-button w3-hide-small">Purchase</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact </a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+        </div>
 
-<div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-  <a href="#info" class="w3-bar-item w3-button">Info</a>
-  <a href="#purchase" class="w3-bar-item w3-button">Purchase</a>
-  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-</div>
+        <div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#info" class="w3-bar-item w3-button">Info</a>
+            <a href="#purchase" class="w3-bar-item w3-button">Purchase</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
 
 
-         <img src="img/cover-turtle.jpg" alt="cover-turtle" style="width:100%">
-    
-        
-        
-       
+        <img src="img/cover-turtle.jpg" alt="cover-turtle" style="width:100%">
+
+
+
+
         <h3 class="w3-center w3-padding-32 header-text" id="home">PURPOSE</h3>
 
         <p class="w3-padding-large"> The main reason cited for eliminating plastic straws is their negative impact on our oceans and marine wildlife. Plastic in the ocean is a huge problem- look no further than trash island, or the viral video of a turtle suffering as a result of ocean pollution, to understand that. But of all the plastic that ends up in the ocean, straws make up only four percent of that waste. The problem is their size. They are small and inconspicuous. So much that people often forget they are plastic and do not recycle them. Straws that do get recycled often don't make it through the mechanical recycling sorter because they are so small and lightweight. So they contaminate recycling loads or get disposed of as garbage. So, knowing that most straws, recycled or not are likely to end up in our oceans, and knowing the amount of straws being used every day, individuals cutting back on use can make a difference.</p>
@@ -46,6 +46,33 @@
                 </p>
             </div>
         </div>
+
+        <!-- Trigger/Open The Modal -->
+        <button class="button"id="myBtn">Ban's on plastic straws!</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>People who have helped already!</h1>
+                <p>At the beginning of July 2018, Seattle became the largest U.S. city to ban plastic straws.
+
+                    They’re not alone.
+
+                    Starbucks plans to phase out plastic straws by 2020. McDonald’s recently announced it will ban plastic straws at its U.K. and Ireland restaurants. Bon Appétit Management, a food service company with 1,000 U.S. locations, announced last May it will phase out plastic straws. Alaska Airlines will be one of the first airlines to phase out plastic straws and stirrers, in part thanks to an environmentally conscious girl scout.
+
+                </p>
+            </div>
+
+        </div>
+
+
+
+
+
+
         <p class="w3-large w3-center w3-padding-16" id="info">Statistics:</p>
         <p class="w3-wide"><i class="fa fa-camera"> Turtles who ingest plastic</i> 
         <div class="w3-light-grey">
@@ -90,7 +117,7 @@
         </div>
 
 
-        <!-- Container (Portfolio Section) -->
+
         <div class="w3-content w3-container w3-padding-64 w3-center" id="purchase">
             <h3 class="w3-center">BUY A STRAW TODAY</h3>
             <p class="w3-center"><em><a href="https://www.amazon.com/s?k=metal+straws&ref=nb_sb_noss_1" target="_blank">Here is where you can go to purcahse a straw today!</a></em></p><br>
@@ -99,14 +126,6 @@
         </div>
 
 
-
-        <!-- Modal for full size images on click-->
-        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-                <p id="caption" class="w3-opacity w3-large"></p>
-            </div>
-        </div>
 
         <!-- video -->
 
@@ -129,11 +148,11 @@
         </div>
 
         <div class="w3-content w3-container w3-padding-64" id="contact">
-             <div class="bgimg-3 w3-display-container w3-opacity-min">
-            <div class="w3-display-bottommiddle">
-                <span class="w3-xxlarge w3-text-teal w3-wide">CONTACT:</span>
+            <div class="bgimg-3 w3-display-container w3-opacity-min">
+                <div class="w3-display-bottommiddle">
+                    <span class="w3-xxlarge w3-text-teal w3-wide">CONTACT:</span>
+                </div>
             </div>
-        </div>
             <h3 class="w3-center">WHERE WE WORK</h3>
             <p class="w3-center"><em> We would love your feedback!</em></p>
 
@@ -179,8 +198,10 @@
             </div>
             <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
         </footer>
-        
-        <link href="js/nav">
+
+
+        <script src="js/nav.js"></script>
+        <script src="js/modal.js"></script>
 
     </body>
 </html>
